@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--2、给映射实体起别名-->
+    <typeAliases>
+        <!--<typeAlias type="com.zcl.domain.Account" alias="account"></typeAlias>-->
+        <package name="com.zcl.domain"/>
+    </typeAliases>
+
+</configuration>
